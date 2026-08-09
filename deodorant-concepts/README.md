@@ -2,7 +2,7 @@
 
 ## MADY labs return link
 
-The Concepts header includes a `Back to MADY labs` link. Configure its deployed destination with `VITE_MADY_LABS_URL`. Local development defaults to `http://127.0.0.1:5178/`.
+The Concepts header includes a `Back to MADY labs` link. It defaults to the same domain root (`/`) and can be overridden with `VITE_MADY_LABS_URL` when needed. The production build uses `/concept-library/` as its asset base so it can be published at `madylabs.xyz/concept-library/` without another domain or deployment.
 
 The Concepts application remains independently built and deployed from the MADY agency website.
 

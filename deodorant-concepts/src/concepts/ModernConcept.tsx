@@ -25,7 +25,7 @@ export default function ModernConcept({ onBack, isDark }: Props) {
 
     <main>
       <section className="relative min-h-screen overflow-hidden pt-20">
-        <div className="absolute inset-0"><img src="/aura-collection.png" alt="Aura refillable deodorant collection" className="h-full w-full object-cover object-[68%_center]"/><div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/25 to-transparent"/></div>
+        <div className="absolute inset-0"><img src={`${import.meta.env.BASE_URL}aura-collection.png`} alt="Aura refillable deodorant collection" className="h-full w-full object-cover object-[68%_center]"/><div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/25 to-transparent"/></div>
         <div className="relative mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1500px] items-center px-5 py-20 lg:px-10">
           <motion.div initial={{opacity:0,y:24}} animate={{opacity:1,y:0}} transition={{duration:.8}} className="max-w-2xl text-white">
             <p className="mb-5 flex items-center gap-2 text-xs font-medium uppercase tracking-[.28em] text-white/70"><Sparkles className="h-4 w-4"/> The new daily ritual</p>

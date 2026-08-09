@@ -9,7 +9,7 @@ const StorytellingConcept = lazy(() => import('./concepts/StorytellingConcept'))
 const ModernConcept = lazy(() => import('./concepts/ModernConcept'));
 import './App.css';
 
-const madyLabsUrl = import.meta.env.VITE_MADY_LABS_URL || 'http://127.0.0.1:5178/';
+const madyLabsUrl = import.meta.env.VITE_MADY_LABS_URL || '/';
 
 type ConceptType = 'storefront' | '3d' | 'storytelling' | 'modern' | null;
 type ViewMode = 'hub' | 'concept';
